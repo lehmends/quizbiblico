@@ -21,4 +21,4 @@ Vamos juntos nessa jornada de aprendizado e diversão! 🚀📚
 #QuizBíblico #Conhecimento #Diversão #EstudoDaBíblia #AulaGoogleGemine
 
 
-![Gif Quiz Bíblico](https://quizbiblico-xi.vercel.app/img/quizbiblico.gif)
+![Imagem Quiz Bíblico](https://quizbiblico-xi.vercel.app/img/quizbiblico.png)
