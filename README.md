@@ -1,32 +1,21 @@
-##  Quiz Bíblico: Desafie seus conhecimentos sobre as Sagradas Escrituras!
+![Logo Quiz Bíblico](https://quizbiblico-xi.vercel.app/img/LOGO.webp)
+📖✨ **Desafie seu conhecimento bíblico com o nosso novo Quiz!** ✨📖
 
-**Já se considerou um expert em Bíblia?**   Então prepare-se para colocar seus conhecimentos à prova com o nosso Quiz Bíblico! ⚡
+Você ama a Bíblia e quer testar seu conhecimento? Então você não pode perder o nosso **Quiz Bíblico** exclusivo, criado com muito carinho na Aula e Google Gemine! 🙌
 
-**Como funciona:**
+🧐 **Como funciona?**
+- Responda a diversas perguntas sobre acontecimentos da Bíblia.
+- Use até **5 dicas** para te ajudar nas respostas.
+- Receba uma **pontuação** no final e veja como você se saiu!
 
-* **Perguntas desafiadoras:** Mergulhe em um universo de perguntas sobre os livros da Bíblia, desde o Gênesis até o Apocalipse.
-* **Dica para te ajudar:** Achou difícil? Não se preocupe! Você tem algumas dicas para te dar aquela força. 
-* **Barra de Progresso:** Acompanhe seu progresso e veja como você está indo! 
-* **Resultado final:** No final, você verá sua pontuação e uma mensagem personalizada. 
+E o melhor de tudo? Você pode jogar **várias vezes** e sempre aprender algo novo! 🏆
 
-**Tecnologias utilizadas:**
+💬 **Curtiu a ideia?** Então não perca tempo e venha se divertir enquanto se aprofunda no conhecimento bíblico. Compartilhe com amigos e familiares e veja quem consegue a maior pontuação!
 
-* **HTML:** A estrutura da página, te deixando com aquela cara de "nossa, que legal!".
-* **CSS:** Deixando tudo bonitinho e organizado, com cores e estilos pra lá de especiais.
-* **JavaScript:** A mágica por trás das perguntas, respostas e aquela animação bacana. 🪄
+🔗 **Clique aqui para começar:** https://quizbiblico-xi.vercel.app/
 
-**Como jogar:**
+Vamos juntos nessa jornada de aprendizado e diversão! 🚀📚
 
-1. **Acesse o site:** https://quizbiblico-xi.vercel.app/
-2. **Escolha a resposta:** Clique na alternativa que você acha que é a correta.
-3. **Verifique o resultado:** Descubra se você acertou ou errou!
-5. **Próxima pergunta:** Clique em "Próxima Pergunta" para continuar a aventura.
-6. **Dicas:** Aproveite as 5 dicas para ficar mais fácil
+#QuizBíblico #Conhecimento #Diversão #EstudoDaBíblia #AulaGoogleGemine
 
-**Contribuições:**
 
-Quer ajudar a melhorar o quiz? Sinta-se à vontade para abrir um pull request! 
-
-**Isenção de responsabilidade:** Este quiz é apenas para fins de diversão e aprendizado. 
-
-**Vamos programar e nos divertir!** 
