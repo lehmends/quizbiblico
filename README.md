@@ -1,4 +1,6 @@
 ![Logo Quiz Bíblico](https://quizbiblico-xi.vercel.app/img/LOGO.webp)
+
+
 📖✨ **Desafie seu conhecimento bíblico com o nosso novo Quiz!** ✨📖
 
 Você ama a Bíblia e quer testar seu conhecimento? Então você não pode perder o nosso **Quiz Bíblico** exclusivo, criado com muito carinho na Aula e Google Gemine! 🙌
