@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Bíblico - Alura e Gemini</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/faviconnv.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/37a6c56adc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <img class="floating-image" src="img/faviconnv.png" alt="">
+    <img class="floating-image2" src="img/faviconnv.png" alt="">
+    <div id="quiz-container">
+        <h1><img src="img/LOGO.webp" width="70%" alt="Quiz Bíblico" style="padding-top: 30px;"></h1>
+        <div id="progress-container">
+            <div id="progress-bar"></div>
+        </div>
+        <div id="progress-percentage">0%</div>
+        <div id="question-container">
+            <!-- Pergunta será inserida aqui pelo JavaScript -->
+        </div>
+        <div id="hint-container">
+            <!-- Dicas serão inseridas aqui pelo JavaScript -->
+        </div>
+        <div id="options-container">
+            <!-- Alternativas serão inseridas aqui pelo JavaScript -->
+        </div>
+        <button id="hint-button" class="button" >
+            <span  class="button-content">Pedir Dica </span>
+        </button>
+        <button id="submit-button" class="button" >
+            <span  class="button-content">Enviar Resposta </span>
+        </button>
+        <button id="next-button" class="button" >
+            <span  class="button-content">Próxima Pergunta </span>
+        </button>
+        <button id="restart-button" class="button" style="display: none;">
+            <span  class="button-content">Reiniciar Quiz </span>
+        </button>
+        
+        <div id="result-container">
+            <!-- Resultado final será exibido aqui pelo JavaScript -->
+        </div>    
+    </div>
+    <footer>
+        <p>Todos os direitos reservados. Produzido por <b title="Desenvolvedor Web"><i class="fa fa-code"></i> Lennon Oliveira</b>
+        | Inspirações <a href="https://www.alura.com.br/"><img src="img/alura.webp" style="margin-bottom: -6px;" alt="Alura"> Alura e</a> <a href="https://gemini.google.com/app"><img src="img/gemini.webp" style="margin-bottom: -6px;" alt="Gemini"> Gemini</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
