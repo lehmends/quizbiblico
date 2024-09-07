@@ -7,9 +7,17 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.clogo {
+    background: var(--logo);
+    background-size: contain; /* Ajusta a imagem para caber no botão */
+    width: 100%;
+    height: 110px;
+}
+#question-container {
+    color: var(--questaotext);
+}
 footer {
-    background-color: #ea5566c2;
+    background-color: var(--text-color);
     padding: 8px;
     color: #fff;
     text-align: center;
@@ -36,12 +44,12 @@ footer a {
     color: green;
 }
 #quiz-container {
-    width: 500px;
-    background: #fff;
+    max-width: 500px;
+    background: var(--quizbg);
     margin: 0 auto;
     margin-top: 90px;
     text-align: center;
-    padding: 0px 40px 40px 40px;
+    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -59,6 +67,7 @@ h2 {
 
 #progress-bar {
     height: 20px;
+    margin-top: 30px;;
     background-color: #FDD456;
     width: 0;
     border-radius: 5px;
@@ -67,6 +76,7 @@ h2 {
 
 #progress-percentage {
     margin-left: 10px;
+    color: var(--porcentagemtext);
 }
 
 .button {
@@ -311,3 +321,117 @@ h2 {
         transform: translateY(0) rotate(0deg);
     }
 }
+
+
+/* Estilos para telas pequenas */
+@media (max-width: 480px) {
+    .floating-image, .floating-image2 {
+        display: none;
+    }
+    #quiz-container {
+        width: 80%;
+        padding: 15px;
+    }
+    .clogo {
+        width: 100%;
+        padding-top: 0px;
+    }
+}
+
+/* Estilos para telas pequenas */
+@media (max-width: 768px) {
+    .floating-image, .floating-image2 {
+        display: none;
+    }
+    #quiz-container {
+        width: 80%;
+        padding: 15px;
+    }
+    .clogo {
+        width: 100%;
+        padding-top: 0px;
+    }
+}
+
+/* Variáveis para o tema claro */
+:root {
+    --quizbg: #ffffffcc;
+    --text-color: #ea5566c2;
+    --questaotext: #000;
+    --porcentagemtext: #000;
+    --logo: url('img/LOGO.webp') no-repeat center center;
+
+}
+
+/* Variáveis para o tema escuro */
+[data-theme="dark"] {
+    --quizbg: #000000cc;
+    --text-color: #000000cc;
+    --questaotext: #fff;
+    --porcentagemtext: #fff;
+    --logo: url('img/logobranco.webp') no-repeat center center;
+
+}
+
+
+
+/* BOTÃO DARK LIGHT */
+.switch {
+    display: block;
+    --width-of-switch: 3.5em;
+    --height-of-switch: 2em;
+    /* size of sliding icon -- sun and moon */
+    --size-of-icon: 1.4em;
+    /* it is like a inline-padding of switch */
+    --slider-offset: 0.3em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: var(--width-of-switch);
+    height: var(--height-of-switch);
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f4f4f5;
+    transition: .4s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: var(--size-of-icon,1.4em);
+    width: var(--size-of-icon,1.4em);
+    border-radius: 20px;
+    left: var(--slider-offset,0.3em);
+    top: 50%;
+    transform: translateY(-50%);
+    background: linear-gradient(40deg,#ff0080,#ff8c00 70%);
+    ;
+   transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #303136;
+  }
+  
+  input:checked + .slider:before {
+    left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
+    background: #303136;
+    /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
+    box-shadow: inset -3px -2px 5px -2px #8983f7, inset -10px -4px 0 0 #a3dafb;
+  }

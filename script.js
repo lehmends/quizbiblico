@@ -479,3 +479,10 @@ document.getElementById('restart-button').addEventListener('click', restartQuiz)
 displayQuestion();
 document.getElementById('next-button').style.display = 'none';
 document.getElementById('submit-button').style.display = 'block';
+
+// JavaScript para alternar entre temas
+document.getElementById('theme-toggle').addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+});
